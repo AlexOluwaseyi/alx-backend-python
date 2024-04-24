@@ -12,4 +12,5 @@ iterable = Iterable[Sequence]
 
 
 def element_length(lst: iterable) -> output:
+    """ Function element_length to return sequence and iterables"""
     return [(i, len(i)) for i in lst]

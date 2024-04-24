@@ -10,7 +10,7 @@ annotated as a float.
 """
 
 from typing import Tuple, Union
-tupleType = Tuple[str, int]
+tupleType = Tuple[str, float]
 
 
 def to_kv(k: str, v: Union[int, float]) -> tupleType:
