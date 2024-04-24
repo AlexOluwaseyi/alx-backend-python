@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# rand.py
 
 """
 A python module for an asynchronous coroutine
@@ -18,6 +17,6 @@ async def wait_random(max_delay: Union[float, int] = 10) -> float:
     wait_random that waits for a random delay between 0 and max_delay
     (included and float value) seconds and eventually returns it.
     """
-    rand_wait = random.random() * max_delay
+    rand_wait: float = random.random() * max_delay
     await asyncio.sleep(rand_wait)
     return rand_wait
