@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Similar to wait_n 
+Similar to wait_n
 except task_wait_random is being called.
 """
 
