@@ -6,11 +6,12 @@ A python module for an asynchronous coroutine
 0. The basics of async
 """
 
+from typing import Union
 import asyncio
 import random
 
 
-async def wait_random(max_delay=10):
+async def wait_random(max_delay: Union[float, int] = 10) -> float:
     """
     Function definition for  an asynchronous coroutine that takes in
     an integer argument (max_delay, with a default value of 10) named
