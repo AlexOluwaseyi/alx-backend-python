@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 """
+add type annotations to the function
+Hint: look into TypeVar
 """
 
 from typing import Mapping, Any, TypeVar, Union
