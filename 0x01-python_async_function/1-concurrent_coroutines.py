@@ -18,6 +18,10 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
+    """
+    takes in 2 int arguments (in this order): n and max_delay.
+    wait_n should return the list of all the delays (float values).
+    """
     store: list = []
     for i in range(n):
         random_wait: float = await wait_random(max_delay)
