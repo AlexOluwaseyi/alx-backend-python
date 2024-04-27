@@ -13,7 +13,7 @@ import random
 from typing import Generator
 
 
-async def async_generator() -> Generator[float, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     A co-routine that takes no argument
     loops 10 times, waits 1 sec and yields
